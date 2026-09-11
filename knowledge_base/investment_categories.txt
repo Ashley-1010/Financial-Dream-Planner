@@ -1,0 +1,5 @@
+Investment category rules
+- Short-term goals (1-3 years): lower-volatility / capital-preservation-oriented category.
+- Medium-term goals (4-7 years): diversified balanced category.
+- Long-term goals (8+ years): diversified long-term growth-oriented category.
+- The application does not recommend individual stocks or guarantee returns.

@@ -1,0 +1,6 @@
+Goal planning calculation rules
+- Future cost is calculated using compound inflation.
+- This project uses an explicit 6% annual inflation rate: Future Cost = Current Cost × (1 + 0.06)^Years.
+- Monthly investment uses the future-value-of-monthly-contributions formula.
+- Expected annual return assumptions are 6% short-term, 8% medium-term and 10% long-term.
+- Marriage, Car and Home are calculated separately because their timelines can differ.

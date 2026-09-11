@@ -1,0 +1,5 @@
+Financial Dream Planner educational guidelines
+- The application is an educational simulation, not professional financial advice.
+- Returns are assumptions used for calculation and are not guaranteed.
+- The user can change saving percentage and goal timelines to test feasibility.
+- The planner shows a shortfall or surplus instead of hiding an infeasible goal.

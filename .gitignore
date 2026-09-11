@@ -1,0 +1,14 @@
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.vscode/
+.idea/
+*.log
+models/rag_store/
+FDPenv/
+venv/
+.venv/
+__pycache__/
+*.pyc

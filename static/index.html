@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Financial Dream Planner AI</title><link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+<header><div><h1>Financial Dream Planner AI</h1><p>Predict • Plan • Invest • Achieve</p></div></header>
+<main>
+<section class="card">
+<h2>Build Your Financial Plan</h2>
+<div class="grid">
+<label>Age<input id="age" type="number" value="22"></label>
+<label>City<select id="city"></select></label>
+<label>Education<select id="education"><option>B.Tech</option><option>B.E.</option><option>MCA</option><option>BCA</option><option>M.Sc</option><option>B.Sc</option><option>M.Tech</option><option>MBA</option></select></label>
+<label>Job Role<select id="role"></select></label>
+<label>Saving / Investment Target (%)<input id="saving" type="number" value="20" min="0" max="100" step="0.1"></label>
+</div>
+<h3>Goals</h3>
+<div class="grid goals">
+<label>Marriage (years)<input id="marriage" type="number" value="5" min="1"></label>
+<label>Car (years)<input id="car" type="number" value="4" min="1"></label>
+<label>Home (years)<input id="home" type="number" value="10" min="1"></label>
+</div>
+<button onclick="calculate()">Calculate My Plan</button>
+<div id="error"></div>
+</section>
+<section id="results" class="card hidden"><h2>Results</h2><div id="output"></div></section>
+<section class="card">
+<h2>Ask the Local Agent</h2><p>Example: “I am 22, live in Bangalore, B.Tech software engineer, want to marry in 5 years, buy a car in 4 years and a home in 10 years. I want to save 20% of my income.”</p>
+<textarea id="agentText" rows="4"></textarea><button onclick="askAgent()">Ask Agent</button><pre id="agentOutput"></pre>
+</section>
+<section class="card disclaimer"><b>Educational simulation:</b> This tool is not professional financial advice. Returns are assumptions and are not guaranteed. Inflation is explicitly set to <b>6% per year</b> as required by the project implementation.
+</section>
+</main>
+<script src="/static/app.js"></script>
+</body></html>

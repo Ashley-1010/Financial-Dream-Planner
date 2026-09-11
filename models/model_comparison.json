@@ -1,0 +1,20 @@
+{
+  "models_compared": [
+    "Linear Regression",
+    "Decision Tree Regressor"
+  ],
+  "selection_rule": "Highest R2; ties broken by lowest MAE.",
+  "best_model": "Linear Regression",
+  "results": [
+    {
+      "model": "Linear Regression",
+      "MAE": 8597.81,
+      "R2": 0.8674
+    },
+    {
+      "model": "Decision Tree Regressor",
+      "MAE": 10602.26,
+      "R2": 0.7801
+    }
+  ]
+}
